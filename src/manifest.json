@@ -1,10 +1,10 @@
 {
   "manifest_version": 2,
-  "name": "Borderify",
+  "name": "React Extension",
   "version": "1.0",
-  "description": "Adds a red border to all webpages matching mozilla.org.",
+  "description": "",
   "icons": {
-    "48": "icons/border-48.png"
+    "48": "icons/beasts-48.png"
   },
   "permissions": ["activeTab"],
   "browser_action": {
@@ -12,9 +12,5 @@
     "default_title": "Beastify",
     "default_popup": "popup/index.html"
   },
-  "web_accessible_resources": [
-    "beasts/frog.jpg",
-    "beasts/turtle.jpg",
-    "beasts/snake.jpg"
-  ]
+  "web_accessible_resources": []
 }
